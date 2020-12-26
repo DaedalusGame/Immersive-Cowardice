@@ -1,0 +1,28 @@
+modLoader = "javafml"
+loaderVersion = "[1.6,)"
+license = 'MIT'
+issueTrackerURL = "https://github.com/DaedalusGame/immersivecowardice/issues"
+
+[[mods]]
+modId = "immersivecowardice"
+version = "${version}"
+displayName = "Immersive Cowardice"
+credits = ""
+authors = "Bord"
+description = '''
+"There are however a few genuine people out there, who make great mods and help raise up the community and bring the platform forward. Daedalus is not one of those. There is no point in arguing with him. I would suggest avoiding his mod." - LexManos
+'''
+
+[[dependencies.immersivecowardice]]
+modId = "forge"
+mandatory = true
+versionRange = "[35.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.immersivecowardice]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.16.4, 1.17)"
+ordering = "NONE"
+side = "BOTH"
